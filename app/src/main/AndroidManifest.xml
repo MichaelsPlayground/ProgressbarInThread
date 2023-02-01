@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ProgressbarInThread"
         tools:targetApi="31">
         <activity
+            android:name=".HorizontalProgressBarStylesActivity"
+            android:exported="false" />
+        <activity
             android:name=".SpinningWheelProgressBarStylesActivity"
             android:exported="false" />
         <activity

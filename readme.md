@@ -9,15 +9,21 @@ The second ProgressBar is put in Indeterminate mode. It will show a progress for
 In this example, I'm using Thread to do the work, downloading a file, or updating the records in the database, for example. 
 Then I use Handler to update information in the interface.
 
-Spinning Wheel ProgressBar Styles Example
+**Spinning Wheel ProgressBar Styles Example**
 
 Below are the Spinning Wheel ProgressBar illustrations with different Style(s).
-*style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"  
-*style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small.Inverse"
--style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
--style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large.Inverse"
--style="@android:style/Widget.ProgressBar.Large"
--style="@android:style/Widget.ProgressBar.Large.Inverse"
+
+style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"  
+
+style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small.Inverse"
+
+style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+
+style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large.Inverse"
+
+style="@android:style/Widget.ProgressBar.Large"
+
+style="@android:style/Widget.ProgressBar.Large.Inverse"
 
 There are a few Style(s) with different names but you will find it difficult to see the difference in terms of interface. 
 
@@ -31,5 +37,21 @@ Note that you will not spot the difference when the application is running on An
 
 However, you can perceive the difference only when the application is running on the well-displayed devices.
 
+**Horizontal ProgressBar Styles**
 
+style="?android:attr/progressBarStyleHorizontal" (Default of Horizontal ProgressBar)
+
+style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+
+style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+
+style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"  
+
+style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+
+style="@android:style/Widget.Holo.ProgressBar.Horizontal"  
+
+style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"  
+
+style="@android:style/Widget.ProgressBar.Horizontal"
 

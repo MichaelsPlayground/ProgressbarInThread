@@ -2,6 +2,7 @@ package de.androidcrypto.progressbarinthread;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button buttonStart1;
     private Button buttonStart2;
+    private Button buttonStart3, buttonStart4;
     private ProgressBar progressBar1;
     private ProgressBar progressBar2;
 
@@ -38,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         this.buttonStart1 = (Button) this.findViewById(R.id.button_start1);
         this.buttonStart2 = (Button) this.findViewById(R.id.button_start2);
 
+        this.buttonStart3 = (Button) this.findViewById(R.id.button_start3);
+        this.buttonStart4 = (Button) this.findViewById(R.id.button_start4);
+
         this.buttonStart1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,6 +54,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 doStartProgressBar2();
+            }
+        });
+
+        this.buttonStart3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SpinningWheelProgressBarStylesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        this.buttonStart4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, HorizontalProgressBarStylesActivity.class);
+                startActivity(intent);
             }
         });
 
