@@ -12,8 +12,8 @@ Then I use Handler to update information in the interface.
 Spinning Wheel ProgressBar Styles Example
 
 Below are the Spinning Wheel ProgressBar illustrations with different Style(s).
--style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"  
--style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small.Inverse"
+*style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"  
+*style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small.Inverse"
 -style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
 -style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large.Inverse"
 -style="@android:style/Widget.ProgressBar.Large"
